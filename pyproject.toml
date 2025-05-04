@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "vsc"
+version = "0.1.0"
+description = ""
+authors = ["FabricioPython <fabricio.mh@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.45.0"
+
+
+[tool.poetry.group.dev.dependencies]
+taskipy = "^1.14.1"
+
+
+[tool.taskipy.tasks]
+run = "streamlit run vsc/main.py"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
