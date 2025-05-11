@@ -3,20 +3,12 @@ import pandas as pd
 
 
 
+st.title("Tasks!")
 
-def home_page():
-  st.title("Tasks!")
-  task_page()
-  
+st.data_editor(pd.DataFrame([{"Task":"", "Date":"","Obs":""}]), num_rows='dynamic')
 
-  
-  
-def task_page():
 
-  df = pd.DataFrame(
-      [
-        {"Task": "", "Date":"","Obs":""},
-    ]
-  )
-  
-  st.data_editor(df, num_rows="dynamic")
+
+
+
+

@@ -1,0 +1,19 @@
+[server]
+port = 80
+
+
+[theme]
+#primaryColor="#d9d9d9"
+backgroundColor="#353535"
+secondaryBackgroundColor="#353535"
+textColor="#ffffff"
+font="sans serif"
+
+
+[theme.sidebar]
+primaryColor = "#ffffff"
+backgroundColor = "#284b63"
+
+
+
+

@@ -2,15 +2,7 @@ import streamlit as st
 import pandas as pd
 
 
-st.set_page_config(
-    page_title="VisualCSV",
-    page_icon=":arrow_up:",
-    layout="wide",
-    initial_sidebar_state="expanded",
-    menu_items={
-        'About': "fabricio.mh@protonmail.com"
-    }
-)
+
 
 
 
