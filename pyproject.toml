@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 streamlit = "^1.45.0"
+tinydb = "^4.8.2"
 
 
 [tool.poetry.group.dev.dependencies]

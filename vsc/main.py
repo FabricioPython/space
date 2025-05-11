@@ -6,6 +6,7 @@ from chat import chat_page
 
 
 
+
 pg = st.navigation([
     st.Page("home.py", title="Office"),
     st.Page("data.py", title="Data visualization"),
