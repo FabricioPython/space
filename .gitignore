@@ -8,8 +8,7 @@ __pycache__/
 *$py.class
 
 #test
-.tests
-
+tests/
 # C extensions
 *.so
 
