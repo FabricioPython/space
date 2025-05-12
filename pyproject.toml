@@ -6,7 +6,7 @@ authors = ["FabricioPython <fabricio.mh@outlook.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "3.11.8"
 streamlit = "^1.45.0"
 tinydb = "^4.8.2"
 pandas = "^2.2.3"
